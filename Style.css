@@ -546,6 +546,7 @@ form input[type="email"] {
 
 .Hero-sec {
   width: 100%;
+  height: 700px;
   position: relative;
   overflow: hidden;
   margin: 0 auto;
@@ -554,6 +555,7 @@ form input[type="email"] {
 }
 .Hero-sec img {
   width: 100%;
+  height:100%;
   margin: 0 auto;
   display: block;
   max-width: 1400px;
@@ -615,6 +617,9 @@ form input[type="email"] {
   border: 2px solid #fff;
 }
 @media screen and (min-width: 768px) {
+  .Hero-sec{
+    height: auto;
+  }
   .intro__context {
     width: 500px;
     border-radius: 2rem;
